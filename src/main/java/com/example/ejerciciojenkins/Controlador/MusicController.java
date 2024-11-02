@@ -33,5 +33,10 @@ public class MusicController {
         return "Hola como estan";
     }
 
+    @GetMapping("/holamundo")
+    public String holamundo(){
+        return "Hola como estan mundo";
+    }
+
 
 }
